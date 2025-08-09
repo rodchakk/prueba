@@ -10,7 +10,7 @@ export function TriviaProvider({ children }: { children: React.ReactNode }) {
   return (
     <TriviaContext.Provider
       value={{
-        preguntas: [] as Pregunta[], // aquí puedes cargar las preguntas si quieres global
+        preguntas: [] as Pregunta[], 
         puntaje,
         respuestas,
         puntajeTotal: 0,
